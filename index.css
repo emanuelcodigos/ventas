@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    min-height: 100%;
+}
+
+.contenedor{
+    height: 100vh;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3848;
+}
+
+.principal{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 95%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.titulo{
+    margin: 10px 0 20px 0;
+}
+
+.calculadora{
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+}
+
+.resultado{
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+}
+
+.botones-flex{
+    display: flex;
+}
+.botones-flex button{
+    margin: 0 10px;
+}
